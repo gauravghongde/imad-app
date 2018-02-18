@@ -1,17 +1,68 @@
-<!doctype html>
 <html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+  <head>
+    <title>JScentral</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>JScentral</h1>
+        <ul>
+          <li><a class="homered" href="#">HOME</a></li>
+          <li><a class="aboutgrey" href="#">ABOUT</a></li>
+          <li><a class="contactgrey" href="#">CONTACT</a></li>
+        </ul>
+        <ul class="social-links">
+          <li><a href="http://www.twitter.com/jscentral"><i class="fab fa-twitter fa-lg"></i></a></li>
+          <li><a href="http://www.facebook.com/jscentral"><i class="fab fa-facebook fa-lg"></i></a></li>
+          <li><a href="http://www.github.com/jscentral"><i class="fab fa-github fa-lg"></i></a></li>
+          <li><a href="http://www.plus.google.com/+jscentral"><i class="fab fa-google-plus-g fa-lg"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="navbase"></div>
+    <div class="fsimagehome">
+      <h2>LATEST NEWS</h2>
+      <div class="news">
+        <div class="news-content">
+          <marquee direction = "up">
+          <ul>
+            <li>
+              <a href="https://developers.google.com/web/fundamentals/performance/webpack/">
+                <p>
+                  <b>A Guide to Web Performance Optimization with Webpack</b>
+                  <br>
+                  A guide to using the popular asset bundling tool to make pages smaller to download and quicker to use.
+                </p>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://cityjsconf.org/">
+                <p>
+                  <b>CityJSConf 2018: A JS Conference in the City of London</b>
+                  <br>
+                  Takes place March 26 and features a debate between Kyle Simpson and Dylan Schiemann.
+                </p>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://emberjs.com/blog/2018/02/14/ember-3-0-released.html">
+                <p>
+                  <b>Ember 3.0 Released</b>
+                  <br>
+                  No new functionality, but removes deprecated APIs and legacy support.
+                </p>
+              </a>
+            </li>
+          </ul>
+        </marquee>
         </div>
-        <br>
-        <div class="center text-big bold">
-            My first local modifications...
-        </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+      </div>
+    </div>
+  </body>
+
 </html>
